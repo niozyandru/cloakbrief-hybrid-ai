@@ -1,0 +1,29 @@
+{
+  "name": "cloakbrief-hybrid-ai",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Privacy-first Hybrid AI document & secrets analyzer using Firebase AI Logic (On-Device Gemini Nano + Cloud Gemini Fallback)",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "preview": "vite preview --port 4173"
+  },
+  "dependencies": {
+    "firebase": "^13.4.0",
+    "lucide-react": "^0.511.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.1.2",
+    "@types/react-dom": "^19.1.2",
+    "@vitejs/plugin-react": "^4.5.0",
+    "jsdom": "^26.1.0",
+    "typescript": "^5.8.3",
+    "vite": "^6.3.5",
+    "vitest": "^3.1.4"
+  }
+}
